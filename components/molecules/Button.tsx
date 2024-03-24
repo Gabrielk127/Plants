@@ -1,12 +1,12 @@
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 const Button = () => {
     return (
-        <Pressable>
+        <View>
             <View style={styles.Container}>
                 <Text style={styles.TextButton}>Veja Mais</Text>
             </View>
-        </Pressable>
+        </View>
     );
 };
 
